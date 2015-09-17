@@ -1,0 +1,29 @@
+{
+  "name": "rajanrx/aws-spot-request",
+  "description": "Basic AWS spot reservation and elastic ip change script",
+  "keywords": [
+    "Aws",
+    "spot instance",
+    "elastic ip"
+  ],
+  "homepage": "https://github.com/rajanrx/aws-spot-request",
+  "type": "project",
+  "license": "MIT",
+  "support": {
+    "issues": "http://rajanr.info",
+    "source": "https://github.com/rajanrx/aws-spot-request"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "aws/aws-sdk-php": "^3.0"
+  },
+  "require-dev": {},
+  "config": {
+    "process-timeout": 1800
+  },
+  "autoload": {
+    "psr-4": {
+      "Rx\\": "Rx"
+    }
+  }
+}
